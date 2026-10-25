@@ -1,5 +1,6 @@
 """B-Rolls 20./22.10.: Video + Off-Stimme + Bildtext + Musik, dazu Whisper-Prüfung und Standbilder."""
 import json, subprocess, urllib.request
+import numpy as np
 from pathlib import Path
 
 B = "https://d8j0ntlcm91z4.cloudfront.net/user_3GtRWXMjLrU3v9GLLgFwO6h9TsQ/"
@@ -40,7 +41,9 @@ for cid, figur, vid, off, hook, key, text2 in CLIPS:
     fertig = OUT / f"{cid}.mp4"
     run("python3", "fertigschnitt.py", str(base), "--figur", figur, "--hook", hook, "--key", key, "--hook-bis", "2.5",
         "--hook-y", "0.12", "--text2", text2, "--text2-ab", "2.5", "--text2-y", "0.12", "--musik", "--out", str(fertig))
-    segs, info = whisper.transcribe(str(offd), language="de")
+    pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(offd), "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
+                         capture_output=True, check=True).stdout
+    segs, info = whisper.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language="de")
     bericht[cid] = " ".join(s.text.strip() for s in segs)
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(fertig)],
                                capture_output=True, text=True).stdout)
