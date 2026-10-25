@@ -1,0 +1,14 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+out/mila-2026-10-20-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+Traceback (most recent call last):
+  File "/home/runner/work/instafluencer-clips/instafluencer-clips/job.py", line 43, in <module>
+    segs, info = whisper.transcribe(str(offd), language="de")
+                 ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/.local/lib/python3.14/site-packages/faster_whisper/transcribe.py", line 876, in transcribe
+    audio = decode_audio(audio, sampling_rate=sampling_rate)
+  File "/home/runner/.local/lib/python3.14/site-packages/faster_whisper/audio.py", line 46, in decode_audio
+    with av.open(input_file, mode="r", metadata_errors="ignore") as container:
+         ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "av/container/core.py", line 479, in av.container.core.open
+    def open(
+TypeError: open() got an unexpected keyword argument 'metadata_errors'
