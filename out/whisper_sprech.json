@@ -1,0 +1,60 @@
+{
+ "mila-2026-10-19-01": {
+  "quote": 100,
+  "gehört": "Dein erstes Regal wackelt? Meins auch. Rate mal, warum. Keine Rückwand. Eine dünne Platte hinten drauf, und es steht. Wackelt deins auch?",
+  "abweichungen": []
+ },
+ "mila-2026-10-21-01": {
+  "quote": 100,
+  "gehört": "Du hast Respekt vorm Akkuschrauber? Ich hatte richtig Angst. Kleinste Stufe, ein Restbrett, zehn Schrauben. Heute ist er mein Lieblingswerkzeug. Wovor hattest du Respekt?",
+  "abweichungen": []
+ },
+ "mila-2026-10-23-01": {
+  "quote": 100,
+  "gehört": "Du misst zweimal, und es passt trotzdem nicht? Kenn ich. Die Säge frisst ein paar Millimeter. Säg neben dem Strich, auf der Abfallseite.",
+  "abweichungen": []
+ },
+ "nele-2026-10-19-01": {
+  "quote": 100,
+  "gehört": "Du hast keine Matte? Du hast einen Teppich. Ich hab drei Monate auf einem Badetuch trainiert. Worauf trainierst du?",
+  "abweichungen": []
+ },
+ "nele-2026-10-21-01": {
+  "quote": 100,
+  "gehört": "Dein letztes Meeting ist vorbei? Laptop zu. Zwanzig Minuten Boden, bevor du aufs Sofa fällst. Wann trainierst du?",
+  "abweichungen": []
+ },
+ "nele-2026-10-23-01": {
+  "quote": 100,
+  "gehört": "Du bist zu müde für zwanzig Minuten? Dann mach fünf. Fünf sind mehr als null. Und meistens werden's zehn.",
+  "abweichungen": []
+ },
+ "hilde-2026-10-19-01": {
+  "quote": 91,
+  "gehört": "Du hast drei Budget -Apps? Und weißt trotzdem nicht, wo das Geld hin ist? Ich hab einen Bleistift. Und ich weiss es auf den Euro genau. App oder Papier, was nimmst du?",
+  "abweichungen": [
+   [
+    "Kind,",
+    ""
+   ],
+   [
+    "Budget-Apps?",
+    "Budget -Apps?"
+   ],
+   [
+    "weisst",
+    "weißt"
+   ]
+  ]
+ },
+ "hilde-2026-10-21-01": {
+  "quote": 100,
+  "gehört": "Kind, vier Euro fünfzig. Für einen Kaffee. Im Pappbecher. Dafür hab ich früher ein Pfund Kaffee gekauft. Was zahlst du für deinen?",
+  "abweichungen": []
+ },
+ "hilde-2026-10-23-01": {
+  "quote": 100,
+  "gehört": "Kind, dir fehlt am Monatsende Geld? Am Monatsende ist nicht zu wenig Geld da. Am Anfang war zu wenig Plan da. Schreib dir am Ersten auf, was weggeht.",
+  "abweichungen": []
+ }
+}

@@ -1,15 +1,62 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-out/mila-2026-10-20-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
-out/mila-2026-10-22-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+out/mila-2026-10-19-01.mp4 (11 Textebenen, 11.0 s)
+out/mila-2026-10-21-01.mp4 (12 Textebenen, 11.0 s)
+out/mila-2026-10-23-01.mp4 (10 Textebenen, 11.0 s)
+out/nele-2026-10-19-01.mp4 (9 Textebenen, 9.0 s)
+out/nele-2026-10-21-01.mp4 (8 Textebenen, 9.0 s)
+out/nele-2026-10-23-01.mp4 (9 Textebenen, 8.0 s)
+out/hilde-2026-10-19-01.mp4 (15 Textebenen, 12.0 s)
+out/hilde-2026-10-21-01.mp4 (10 Textebenen, 10.0 s)
+out/hilde-2026-10-23-01.mp4 (13 Textebenen, 11.0 s)
 out/nele-2026-10-20-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/nele-2026-10-22-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/hilde-2026-10-20-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
-out/hilde-2026-10-22-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
 {
- "mila-2026-10-20-01": "Kaufst du Komebretter? Schau vorher an der Kante entlang.",
- "mila-2026-10-22-01": "Welches Schleifpapier zuerst? Kleine Zahl ist grob, große Zahl ist fein.",
- "nele-2026-10-20-01": "Nachbarn unter dir? Dann Schritt zur Seite statt Sprung.",
- "nele-2026-10-22-01": "Zwei Minuten Plank? Nein, 20 saubere Sekunden, dann steigern.",
- "hilde-2026-10-20-01": "Ich wette ein Abo davon, kennst du gar nicht mehr.",
- "hilde-2026-10-22-01": "Kind, wer hungrig einkauft, kauft für zwei."
+ "mila-2026-10-19-01": [
+  100,
+  []
+ ],
+ "mila-2026-10-21-01": [
+  100,
+  []
+ ],
+ "mila-2026-10-23-01": [
+  100,
+  []
+ ],
+ "nele-2026-10-19-01": [
+  100,
+  []
+ ],
+ "nele-2026-10-21-01": [
+  100,
+  []
+ ],
+ "nele-2026-10-23-01": [
+  100,
+  []
+ ],
+ "hilde-2026-10-19-01": [
+  91,
+  [
+   [
+    "Kind,",
+    ""
+   ],
+   [
+    "Budget-Apps?",
+    "Budget -Apps?"
+   ],
+   [
+    "weisst",
+    "weißt"
+   ]
+  ]
+ ],
+ "hilde-2026-10-21-01": [
+  100,
+  []
+ ],
+ "hilde-2026-10-23-01": [
+  100,
+  []
+ ]
 }
