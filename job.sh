@@ -1,2 +1,1 @@
-set -e
-python3 job.py
+set -e; python3 job2.py
