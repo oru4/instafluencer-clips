@@ -28,8 +28,10 @@ whisper = WhisperModel("medium", device="cpu", compute_type="int8")
 bericht = {}
 for cid, figur, vid, off, hook, key, text2 in CLIPS:
     roh, offd = OUT / f"{cid}_video.mp4", OUT / f"{cid}_off.mp3"
-    urllib.request.urlretrieve(B + vid + ".mp4", roh)
-    urllib.request.urlretrieve(B + off + ".mp3", offd)
+    if not roh.exists():
+        urllib.request.urlretrieve(B + vid + ".mp4", roh)
+    if not offd.exists():
+        urllib.request.urlretrieve(B + off + ".mp3", offd)
     # Grok-MP4 hat zwei Videospuren → nur die erste; fehlende Tonspur durch Stille ersetzen
     base = OUT / f"{cid}_base.mp4"
     has_a = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "a", "-show_entries", "stream=index", "-of", "csv=p=0", str(roh)],
@@ -40,9 +42,12 @@ for cid, figur, vid, off, hook, key, text2 in CLIPS:
         "-map", "0:v:0", "-map", "[a]", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-shortest", str(base))
     fertig = OUT / f"{cid}.mp4"
     run("python3", "fertigschnitt.py", str(base), "--figur", figur, "--hook", hook, "--key", key, "--hook-bis", "2.5",
-        "--hook-y", "0.12", "--text2", text2, "--text2-ab", "2.5", "--text2-y", "0.12", "--musik", "--out", str(fertig))
+        "--hook-y", "0.12", "--text2", text2, "--text2-ab", "2.6", "--text2-y", "0.12", "--musik", "--out", str(fertig))
     pcm = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(offd), "-ac", "1", "-ar", "16000", "-f", "s16le", "-"],
                          capture_output=True, check=True).stdout
+    if cid == "nele-2026-10-20-01":
+        for k in range(8):
+            run("ffmpeg", "-y", "-loglevel", "error", "-ss", f"{k * 0.75:.2f}", "-i", str(fertig), "-frames:v", "1", "-vf", "scale=200:-1", str(OUT / f"{cid}_s{k}.jpg"))
     segs, info = whisper.transcribe(np.frombuffer(pcm, np.int16).astype(np.float32) / 32768, language="de")
     bericht[cid] = " ".join(s.text.strip() for s in segs)
     dur = float(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", str(fertig)],
@@ -52,3 +57,15 @@ for cid, figur, vid, off, hook, key, text2 in CLIPS:
     base.unlink()
 (OUT / "whisper_brolls.json").write_text(json.dumps(bericht, ensure_ascii=False, indent=1), encoding="utf-8")
 print(json.dumps(bericht, ensure_ascii=False, indent=1))
+
+# Startbilder Sprechclips 19./21./23.10.
+START = {"mila_s19": "hf_20261025_231135_7a2fc552-b8ca-4348-b47a-2c0ed1db7da0", "mila_s21": "hf_20261025_231135_bf99ebf1-bbdc-40ad-bf0b-68c3b51d1bac",
+         "mila_s23": "hf_20261025_231134_bb7f97b8-67f5-4300-8d75-3549583ffd8e", "nele_s19": "hf_20261025_231135_7c191173-c479-4f78-a58b-d6d8a12af7e4",
+         "nele_s21": "hf_20261025_231136_83359fce-da6f-4a46-b033-75f5f726a7cc", "nele_s23": "hf_20261025_231135_9a2ea50e-2efb-4a05-aeac-364fd2f67046",
+         "hilde_s19": "hf_20261025_231136_b7df16b4-56ee-4bc4-a30e-e459c17b5f0e", "hilde_s21": "hf_20261025_231136_19f730dc-5243-4880-a664-45f7ca496f2d",
+         "hilde_s23": "hf_20261025_231136_6ad0c16e-9e04-4056-b52c-e5f2dc7f21ad"}
+for name, h in START.items():
+    p = OUT / f"{name}.png"
+    urllib.request.urlretrieve(B + h + ".png", p)
+    run("ffmpeg", "-y", "-loglevel", "error", "-i", str(p), "-vf", "scale=300:-1", str(OUT / f"{name}_k.jpg"))
+    p.unlink()
