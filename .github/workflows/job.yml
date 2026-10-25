@@ -1,0 +1,25 @@
+# Führt job.sh aus dem Branch "job" aus (Download von Higgsfield-Ergebnissen, Schnitt, Whisper)
+# und committet den Ordner out/ zurück in denselben Branch. Für Cloud-Sessions ohne Zugriff auf die CDN.
+name: Job ausführen
+on:
+  push:
+    branches: [job]
+permissions:
+  contents: write
+concurrency: job
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-inter fonts-dejavu-core >/dev/null
+      - run: pip install -q numpy pillow faster-whisper
+      - run: bash job.sh
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - run: |
+          git config user.name "job-bot"
+          git config user.email "job-bot@users.noreply.github.com"
+          git add -A out
+          git commit -q -m "Ergebnis $(date -u +%FT%TZ)" || echo "nichts zu committen"
+          git push
