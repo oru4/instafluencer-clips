@@ -1,3 +1,2 @@
 set -e
-gh release upload clips out/mila-2026-10-19-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-echo upload-ok
+python3 job4.py hf_20261026_000038_064f960e-c513-4890-b273-b228a5c8b0ca.mp4 hf_20261026_000038_5f58604c-a29c-4429-98ed-34ae3307fb45.mp4
