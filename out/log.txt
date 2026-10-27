@@ -1,13 +1,1 @@
-Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-out/nele-2026-10-28-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/nele-2026-10-25-01.mp4 (9 Textebenen, 10.0 s)
-{
- "nele-2026-10-28-01": {
-  "gehört": "Becken hoch, oben kurz halten, langsam runter."
- },
- "nele-2026-10-25-01": {
-  "quote": 100,
-  "gehört": "Draussen regnet's? Perfekt. Mein Wohnzimmer hat ein Dach. Zwanzig Minuten, keine nassen Schuhe. Trainierst du lieber drinnen oder draussen?",
-  "abweichungen": []
- }
-}
+15
