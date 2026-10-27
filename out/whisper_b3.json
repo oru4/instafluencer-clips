@@ -1,0 +1,51 @@
+{
+ "mila-2026-10-24-01": {
+  "gehört": "Bleib nie mit dem Finger verschmieren, sonst nimmt das Holz kein Öl an."
+ },
+ "mila-2026-10-26-01": {
+  "gehört": "Nach 20 Minuten abwischen, sonst bleibt's klebrig."
+ },
+ "mila-2026-10-28-01": {
+  "gehört": "Die Brille gehört auf die Nase, nicht neben die Säge."
+ },
+ "nele-2026-10-24-01": {
+  "gehört": "Speichert ihr das und macht 10 mit mir."
+ },
+ "nele-2026-10-26-01": {
+  "gehört": "Rücken an die Wand, Knie über die Fersen und halten."
+ },
+ "hilde-2026-10-24-01": {
+  "gehört": "Kind, das Neue kommt nach hinten, sonst wirfst du das Alte weg."
+ },
+ "hilde-2026-10-26-01": {
+  "gehört": "Kind, drei Dienste, aber du hast nur ein Sofa."
+ },
+ "hilde-2026-10-28-01": {
+  "gehört": "Kind, die kleinen Beträge fressen dich auf."
+ },
+ "mila-2026-10-25-01": {
+  "quote": 100,
+  "gehört": "Du denkst, ohne Ausbildung geht das nicht? Ich hab keine. Nur Geduld, zwei Zwingen und viele Restbretter. Was willst du als Erstes bauen?",
+  "abweichungen": []
+ },
+ "mila-2026-10-27-01": {
+  "quote": 100,
+  "gehört": "Du findest Holz zu teuer? Frag am Zuschnitt nach Resten. Kurze Stücke gibt's oft günstig. Perfekt zum Üben. Wo kaufst du dein Holz?",
+  "abweichungen": []
+ },
+ "nele-2026-10-27-01": {
+  "quote": 100,
+  "gehört": "Du hast nur zehn Minuten Mittagspause? Reicht. Zehn Kniebeugen, eine Minute Wandsitz, durchatmen. Was machst du in deiner Pause?",
+  "abweichungen": []
+ },
+ "hilde-2026-10-25-01": {
+  "quote": 100,
+  "gehört": "Kind, du hast dreissig Prozent gespart? Auf etwas, das du nicht gebraucht hast. Dann hast du siebzig Prozent ausgegeben. Was hast du zuletzt im Angebot gekauft?",
+  "abweichungen": []
+ },
+ "hilde-2026-10-27-01": {
+  "quote": 100,
+  "gehört": "Kind, wie viele Abos hast du? Ich hatte eins. Die Zeitung. Und die hab ich jeden Morgen gelesen. Wie viele zahlst du gerade?",
+  "abweichungen": []
+ }
+}
