@@ -1,0 +1,84 @@
+[
+ {
+  "cid": "mila-2026-10-24-01",
+  "figur": "mila",
+  "video": "hf_20261027_210244_970490ea-7ace-4d15-86b7-69c780c87d7b",
+  "off": "hf_20261027_205818_6eaeb01e-1f92-4447-994d-7c3ac1a69520",
+  "hook": "Leim rausgequollen?",
+  "key": "rausgequollen?",
+  "text2": "Nicht verschmieren · antrocknen lassen · abziehen"
+ },
+ {
+  "cid": "mila-2026-10-26-01",
+  "figur": "mila",
+  "video": "hf_20261027_210244_47d73079-0077-4cef-96b8-74635d28bba6",
+  "off": "hf_20261027_205818_97d641c8-654c-426b-a75c-c4f6bb552f03",
+  "hook": "Öl drauf, fertig?",
+  "key": "fertig?",
+  "text2": "Nach ca. 20 Min. Überschuss abwischen"
+ },
+ {
+  "cid": "mila-2026-10-28-01",
+  "figur": "mila",
+  "video": "hf_20261027_210108_613aac60-a2da-4139-b951-b3cc41bad8da",
+  "off": "hf_20261027_205818_bc1f3e4b-b58d-48de-b54f-6ceeb8bd794e",
+  "hook": "Schutzbrille auf. Immer.",
+  "key": "auf.",
+  "text2": "Auch für einen einzigen Schnitt"
+ },
+ {
+  "cid": "nele-2026-10-24-01",
+  "figur": "nele",
+  "video": "hf_20261027_210244_fda5c425-fea0-44e5-b4df-5e79a84c9098",
+  "off": "hf_20261027_205818_44800207-b316-4d01-abc6-966547430d0b",
+  "hook": "Kniebeugen. Mach mit.",
+  "key": "Mach mit.",
+  "text2": "10× · Knie Richtung Zehen · Gewicht auf den Fersen"
+ },
+ {
+  "cid": "nele-2026-10-26-01",
+  "figur": "nele",
+  "video": "hf_20261027_210244_72f90d1f-096c-43f6-b811-87074b7c3484",
+  "off": "hf_20261027_205818_a9d77c29-a47d-4755-bbd4-d0b7cf5aa7c5",
+  "hook": "Wandsitz: 30 Sek.",
+  "key": "30 Sek.",
+  "text2": "Rücken an der Wand · Knie über den Fersen"
+ },
+ {
+  "cid": "nele-2026-10-28-01",
+  "figur": "nele",
+  "video": "OFFEN",
+  "off": "hf_20261027_205818_5048200a-e31d-4148-8956-b147272e299e",
+  "hook": "Brücke: 10× mitmachen",
+  "key": "10×",
+  "text2": "Füsse nah am Po · Becken hoch · oben kurz halten",
+  "pad": true
+ },
+ {
+  "cid": "hilde-2026-10-24-01",
+  "figur": "hilde",
+  "video": "hf_20261027_210108_8e2cf6dc-0608-4aba-921c-767632c614c6",
+  "off": "hf_20261027_205818_46d6d6dc-1cc0-454b-a31a-20874eda45a4",
+  "hook": "Neues kommt nach hinten.",
+  "key": "nach hinten.",
+  "text2": "Altes nach vorne · zuerst aufbrauchen"
+ },
+ {
+  "cid": "hilde-2026-10-26-01",
+  "figur": "hilde",
+  "video": "hf_20261027_210108_b365986d-1fa8-4add-9231-eaa522961e76",
+  "off": "hf_20261027_205818_298fb309-f6da-4a06-8493-4a5551962f3a",
+  "hook": "Drei Streamingdienste. Ein Sofa.",
+  "key": "Ein Sofa.",
+  "text2": "Einen behalten · die anderen pausieren"
+ },
+ {
+  "cid": "hilde-2026-10-28-01",
+  "figur": "hilde",
+  "video": "hf_20261027_210108_283f5f79-76aa-4390-8111-9344d5ebc5f3",
+  "off": "hf_20261027_205818_d2c76e28-89e7-4985-b2ea-e2920d975a79",
+  "hook": "Die kleinen Beträge.",
+  "key": "kleinen",
+  "text2": "Eine Woche jeden Euro aufschreiben"
+ }
+]

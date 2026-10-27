@@ -1,0 +1,50 @@
+[
+ {
+  "cid": "mila-2026-10-25-01",
+  "figur": "mila",
+  "video": "hf_20261027_210513_db821e54-d828-45e8-b41e-60e1c1896dc0",
+  "hook": "Keine Ausbildung.",
+  "key": "Ausbildung.",
+  "skript": "Du denkst, ohne Ausbildung geht das nicht? Ich hab keine. Nur Geduld, zwei Zwingen und viele Restbretter. Was willst du als Erstes bauen?"
+ },
+ {
+  "cid": "mila-2026-10-27-01",
+  "figur": "mila",
+  "video": "hf_20261027_210515_221d8363-8e5e-4461-9b5f-4617be0aef11",
+  "hook": "Holz zu teuer?",
+  "key": "teuer?",
+  "skript": "Du findest Holz zu teuer? Frag am Zuschnitt nach Resten. Kurze Stücke gibt's oft günstig. Perfekt zum Üben. Wo kaufst du dein Holz?"
+ },
+ {
+  "cid": "nele-2026-10-25-01",
+  "figur": "nele",
+  "video": "OFFEN",
+  "hook": "Es regnet? Perfekt.",
+  "key": "Perfekt.",
+  "skript": "Draussen regnet's? Perfekt. Mein Wohnzimmer hat ein Dach. Zwanzig Minuten, keine nassen Schuhe. Trainierst du lieber drinnen oder draussen?"
+ },
+ {
+  "cid": "nele-2026-10-27-01",
+  "figur": "nele",
+  "video": "hf_20261027_210517_b0519bcc-cc5d-4248-b136-b32aecf862c5",
+  "hook": "Mittagspause: 10 Min.",
+  "key": "10 Min.",
+  "skript": "Du hast nur zehn Minuten Mittagspause? Reicht. Zehn Kniebeugen, eine Minute Wandsitz, durchatmen. Was machst du in deiner Pause?"
+ },
+ {
+  "cid": "hilde-2026-10-25-01",
+  "figur": "hilde",
+  "video": "hf_20261027_210519_3158cad7-db7c-48cf-8852-9f69e1c75c49",
+  "hook": "Rabatt heisst nicht sparen.",
+  "key": "nicht sparen.",
+  "skript": "Kind, du hast dreissig Prozent gespart? Auf etwas, das du nicht gebraucht hast. Dann hast du siebzig Prozent ausgegeben. Was hast du zuletzt im Angebot gekauft?"
+ },
+ {
+  "cid": "hilde-2026-10-27-01",
+  "figur": "hilde",
+  "video": "hf_20261027_210522_42eb7677-1444-4536-b346-237ca0d8334e",
+  "hook": "Mein einziges Abo: Zeitung.",
+  "key": "Abo:",
+  "skript": "Kind, wie viele Abos hast du? Ich hatte eins. Die Zeitung. Und die hab ich jeden Morgen gelesen. Wie viele zahlst du gerade?"
+ }
+]
