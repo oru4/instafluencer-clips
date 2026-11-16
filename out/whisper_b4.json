@@ -59,5 +59,25 @@
   "quote": 100,
   "gehört": "Du sitzt den ganzen Tag im Homeoffice? Ich auch. Darum steh ich bei jedem Telefonat auf. Klingt nach nichts, sind aber viele Minuten. Wie viel sitzt du am Tag?",
   "abweichungen": []
+ },
+ "nele-2026-11-22-01": {
+  "quote": 100,
+  "gehört": "Du sagst, du hast keinen Platz? Meine Matte ist so breit wie ich. Zwischen Sofa und Tisch geht das. Wo trainierst du zu Hause?",
+  "abweichungen": []
+ },
+ "hilde-2026-11-20-01": {
+  "quote": 100,
+  "gehört": "Kind, dein Fernseher schläft nicht. Er wartet. Und das kostet Strom. Ich schalt abends die Steckerleiste aus. Was läuft bei dir die ganze Nacht?",
+  "abweichungen": []
+ },
+ "hilde-2026-11-22-01": {
+  "quote": 98,
+  "gehört": "Probier mal eine Woche nur mit Bargeld. Wenn das Portemonnaie leer ist, ist Schluss. Da merkst du jeden Einkauf. Zahlst du lieber bar oder mit Karte?",
+  "abweichungen": [
+   [
+    "Kind,",
+    ""
+   ]
+  ]
  }
 }
