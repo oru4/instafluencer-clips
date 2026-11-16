@@ -1,6 +1,58 @@
 [
- {"cid": "mila-2026-11-18-01", "figur": "mila", "video": "hf_20261116_161854_1b59e4b6-8a80-4c97-9535-bc0e6e1e852a", "hook": "Zu viel Leim?", "key": "Leim?", "skript": "Du nimmst zu viel Leim? Ich auch, am Anfang. Eine dünne Schicht reicht. Ein paar kleine Perlen an der Fuge sind genau richtig. Wie viel nimmst du?"},
- {"cid": "mila-2026-11-20-01", "figur": "mila", "video": "hf_20261116_161433_497ecae3-9d73-4e15-a5aa-1da7f338d75c", "hook": "Erstes Holz: Kiefer.", "key": "Kiefer.", "skript": "Du weisst nicht, welches Holz du nehmen sollst? Nimm Kiefer. Günstig, leicht zu sägen, und Fehler sind nicht so teuer. Womit hast du angefangen?"},
- {"cid": "mila-2026-11-22-01", "figur": "mila", "video": "hf_20261116_161643_99d34cc4-8298-46ad-9208-904985fd2a45", "hook": "Holz vor dem Ölen wässern.", "key": "wässern.", "skript": "Dein Holz wird nach dem Ölen rau? Wisch es vorher feucht ab. Trocknen lassen, nochmal fein schleifen. Dann bleibt es glatt. Hast du das schon probiert?"},
- {"cid": "nele-2026-11-20-01", "figur": "nele", "video": "hf_20261116_161437_36ae4408-8136-41a3-83f9-530eb7e624f2", "hook": "Telefonat? Ich steh auf.", "key": "steh auf.", "skript": "Du sitzt den ganzen Tag im Homeoffice? Ich auch. Darum steh ich bei jedem Telefonat auf. Klingt nach nichts, sind aber viele Minuten. Wie viel sitzt du am Tag?"}
+ {
+  "cid": "mila-2026-11-18-01",
+  "figur": "mila",
+  "video": "hf_20261116_161854_1b59e4b6-8a80-4c97-9535-bc0e6e1e852a",
+  "hook": "Zu viel Leim?",
+  "key": "Leim?",
+  "skript": "Du nimmst zu viel Leim? Ich auch, am Anfang. Eine dünne Schicht reicht. Ein paar kleine Perlen an der Fuge sind genau richtig. Wie viel nimmst du?"
+ },
+ {
+  "cid": "mila-2026-11-20-01",
+  "figur": "mila",
+  "video": "hf_20261116_161433_497ecae3-9d73-4e15-a5aa-1da7f338d75c",
+  "hook": "Erstes Holz: Kiefer.",
+  "key": "Kiefer.",
+  "skript": "Du weisst nicht, welches Holz du nehmen sollst? Nimm Kiefer. Günstig, leicht zu sägen, und Fehler sind nicht so teuer. Womit hast du angefangen?"
+ },
+ {
+  "cid": "mila-2026-11-22-01",
+  "figur": "mila",
+  "video": "hf_20261116_161643_99d34cc4-8298-46ad-9208-904985fd2a45",
+  "hook": "Holz vor dem Ölen wässern.",
+  "key": "wässern.",
+  "skript": "Dein Holz wird nach dem Ölen rau? Wisch es vorher feucht ab. Trocknen lassen, nochmal fein schleifen. Dann bleibt es glatt. Hast du das schon probiert?"
+ },
+ {
+  "cid": "nele-2026-11-20-01",
+  "figur": "nele",
+  "video": "hf_20261116_161437_36ae4408-8136-41a3-83f9-530eb7e624f2",
+  "hook": "Telefonat? Ich steh auf.",
+  "key": "steh auf.",
+  "skript": "Du sitzt den ganzen Tag im Homeoffice? Ich auch. Darum steh ich bei jedem Telefonat auf. Klingt nach nichts, sind aber viele Minuten. Wie viel sitzt du am Tag?"
+ },
+ {
+  "cid": "nele-2026-11-22-01",
+  "figur": "nele",
+  "video": "hf_20261116_161439_13c7c711-99fc-45d2-8344-f0514210254b",
+  "hook": "Kein Platz? Doch.",
+  "key": "Doch.",
+  "skript": "Du sagst, du hast keinen Platz? Meine Matte ist so breit wie ich. Zwischen Sofa und Tisch geht das. Wo trainierst du zu Hause?"
+ },
+ {
+  "cid": "hilde-2026-11-20-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161648_59e1cf65-2db5-4750-91ee-9c62a4532b68",
+  "hook": "Standby kostet auch.",
+  "key": "Standby",
+  "skript": "Kind, dein Fernseher schläft nicht. Er wartet. Und das kostet Strom. Ich schalt abends die Steckerleiste aus. Was läuft bei dir die ganze Nacht?"
+ },
+ {
+  "cid": "hilde-2026-11-22-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161650_4739a38d-4f2c-441d-b19c-6f5cdb74f380",
+  "hook": "Eine Woche nur Bargeld.",
+  "key": "Bargeld.",
+  "skript": "Kind, probier mal eine Woche nur mit Bargeld. Wenn das Portemonnaie leer ist, ist Schluss. Da merkst du jeden Einkauf. Zahlst du lieber bar oder mit Karte?"
+ }
 ]
