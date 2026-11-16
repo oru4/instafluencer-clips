@@ -1,5 +1,5 @@
-"""Batch 3 (24.–28.10.): B-Rolls (Video + Off-Stimme + Bildtext + Musik) und Sprechclips (voice_change → Whisper → Untertitel).
-Pro Clip ein Bildraster out/<clip>_t.jpg zur Sichtprüfung, Whisper-Bericht in out/whisper_b3.json."""
+"""Batch 4 (17.–23.11.): B-Rolls (Video + Off-Stimme + Bildtext + Musik) und Sprechclips (voice_change → Whisper → Untertitel).
+Pro Clip ein Bildraster out/<clip>_t.jpg zur Sichtprüfung, Whisper-Bericht in out/whisper_b4.json."""
 import difflib, json, re, subprocess, sys, urllib.request
 from pathlib import Path
 import numpy as np
@@ -7,8 +7,8 @@ from faster_whisper import WhisperModel
 
 B = "https://d8j0ntlcm91z4.cloudfront.net/user_3GtRWXMjLrU3v9GLLgFwO6h9TsQ/"
 OUT = Path("out"); OUT.mkdir(exist_ok=True)
-BROLL = json.loads(Path("b3_broll.json").read_text(encoding="utf-8"))
-SPRECH = json.loads(Path("b3_sprech.json").read_text(encoding="utf-8"))
+BROLL = json.loads(Path("b4_broll.json").read_text(encoding="utf-8"))
+SPRECH = json.loads(Path("b4_sprech.json").read_text(encoding="utf-8"))
 nur = set(sys.argv[1:])
 
 def run(*a):
@@ -72,7 +72,7 @@ for c in SPRECH:
         "--hook-y", "0.40", "--skript", skript, "--out", str(OUT / f"{cid}.mp4"))
     raster(cid)
 
-alt = OUT / "whisper_b3.json"
+alt = OUT / "whisper_b4.json"
 gesamt = json.loads(alt.read_text(encoding="utf-8")) if alt.exists() else {}
 gesamt.update(bericht)
 alt.write_text(json.dumps(gesamt, ensure_ascii=False, indent=1), encoding="utf-8")
