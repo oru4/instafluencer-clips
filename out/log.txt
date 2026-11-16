@@ -1,28 +1,33 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-out/nele-2026-11-23-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/mila-2026-11-21-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
-out/nele-2026-11-19-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/hilde-2026-11-17-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
-out/hilde-2026-11-19-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
-out/hilde-2026-11-21-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+out/mila-2026-11-18-01.mp4 (13 Textebenen, 11.0 s)
+out/mila-2026-11-20-01.mp4 (11 Textebenen, 11.0 s)
+out/mila-2026-11-22-01.mp4 (12 Textebenen, 11.0 s)
+out/nele-2026-11-20-01.mp4 (13 Textebenen, 11.0 s)
 {
- "nele-2026-11-23-01": {
-  "gehört": "Arme seitlich hoch, kleine Kreise. 30 Sekunden, mach mit!"
+ "mila-2026-11-18-01": {
+  "quote": 100,
+  "gehört": "Du nimmst zu viel Leim? Ich auch, am Anfang. Eine dünne Schicht reicht. Ein paar kleine Perlen an der Fuge sind genau richtig. Wie viel nimmst du?",
+  "abweichungen": []
  },
- "mila-2026-11-21-01": {
-  "gehört": "Loch aus ausgeleiert, Zahnstocher mit Leim rein, abschneiden, neu schrauben."
+ "mila-2026-11-20-01": {
+  "quote": 96,
+  "gehört": "Du weißt nicht, welches Holz du nehmen sollst? Nimm Kiefer. Günstig, leicht zu sägen, und Fehler sind nicht so teuer. Womit hast du angefangen?",
+  "abweichungen": [
+   [
+    "weisst",
+    "weißt"
+   ]
+  ]
  },
- "nele-2026-11-19-01": {
-  "gehört": "Auf die Zehenspitzen, oben kurz halten, langsam runter. 20 Mal, mach mit!"
+ "mila-2026-11-22-01": {
+  "quote": 100,
+  "gehört": "Dein Holz wird nach dem Ölen rau? Wisch es vorher feucht ab. Trocknen lassen, nochmal fein schleifen. Dann bleibt es glatt. Hast du das schon probiert?",
+  "abweichungen": []
  },
- "hilde-2026-11-17-01": {
-  "gehört": "Kind, das Teure steht auf Augenhöhe. Schau ganz unten ins Regal."
- },
- "hilde-2026-11-19-01": {
-  "gehört": "Gleich beim Abschluss die Frist in den Kalender. Dann verpasst du sie nie."
- },
- "hilde-2026-11-21-01": {
-  "gehört": "Einmal im Monat mit Kaffee. Was du nicht kennst, streichst du an."
+ "nele-2026-11-20-01": {
+  "quote": 100,
+  "gehört": "Du sitzt den ganzen Tag im Homeoffice? Ich auch. Darum steh ich bei jedem Telefonat auf. Klingt nach nichts, sind aber viele Minuten. Wie viel sitzt du am Tag?",
+  "abweichungen": []
  }
 }
 hilde-2026-11-17-01.mp4
@@ -41,12 +46,24 @@ log.txt
 mila-2026-11-17-01.mp4
 mila-2026-11-17-01_off.mp3
 mila-2026-11-17-01_t.jpg
+mila-2026-11-18-01.mp4
+mila-2026-11-18-01_roh.mp4
+mila-2026-11-18-01_roh.words.json
+mila-2026-11-18-01_t.jpg
 mila-2026-11-19-01.mp4
 mila-2026-11-19-01_off.mp3
 mila-2026-11-19-01_t.jpg
+mila-2026-11-20-01.mp4
+mila-2026-11-20-01_roh.mp4
+mila-2026-11-20-01_roh.words.json
+mila-2026-11-20-01_t.jpg
 mila-2026-11-21-01.mp4
 mila-2026-11-21-01_off.mp3
 mila-2026-11-21-01_t.jpg
+mila-2026-11-22-01.mp4
+mila-2026-11-22-01_roh.mp4
+mila-2026-11-22-01_roh.words.json
+mila-2026-11-22-01_t.jpg
 mila-2026-11-23-01.mp4
 mila-2026-11-23-01_off.mp3
 mila-2026-11-23-01_t.jpg
@@ -56,6 +73,10 @@ nele-2026-11-17-01_t.jpg
 nele-2026-11-19-01.mp4
 nele-2026-11-19-01_off.mp3
 nele-2026-11-19-01_t.jpg
+nele-2026-11-20-01.mp4
+nele-2026-11-20-01_roh.mp4
+nele-2026-11-20-01_roh.words.json
+nele-2026-11-20-01_t.jpg
 nele-2026-11-21-01.mp4
 nele-2026-11-21-01_off.mp3
 nele-2026-11-21-01_t.jpg

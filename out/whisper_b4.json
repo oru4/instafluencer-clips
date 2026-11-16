@@ -34,5 +34,30 @@
  },
  "hilde-2026-11-21-01": {
   "gehört": "Einmal im Monat mit Kaffee. Was du nicht kennst, streichst du an."
+ },
+ "mila-2026-11-18-01": {
+  "quote": 100,
+  "gehört": "Du nimmst zu viel Leim? Ich auch, am Anfang. Eine dünne Schicht reicht. Ein paar kleine Perlen an der Fuge sind genau richtig. Wie viel nimmst du?",
+  "abweichungen": []
+ },
+ "mila-2026-11-20-01": {
+  "quote": 96,
+  "gehört": "Du weißt nicht, welches Holz du nehmen sollst? Nimm Kiefer. Günstig, leicht zu sägen, und Fehler sind nicht so teuer. Womit hast du angefangen?",
+  "abweichungen": [
+   [
+    "weisst",
+    "weißt"
+   ]
+  ]
+ },
+ "mila-2026-11-22-01": {
+  "quote": 100,
+  "gehört": "Dein Holz wird nach dem Ölen rau? Wisch es vorher feucht ab. Trocknen lassen, nochmal fein schleifen. Dann bleibt es glatt. Hast du das schon probiert?",
+  "abweichungen": []
+ },
+ "nele-2026-11-20-01": {
+  "quote": 100,
+  "gehört": "Du sitzt den ganzen Tag im Homeoffice? Ich auch. Darum steh ich bei jedem Telefonat auf. Klingt nach nichts, sind aber viele Minuten. Wie viel sitzt du am Tag?",
+  "abweichungen": []
  }
 }
