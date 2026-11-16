@@ -1,9 +1,110 @@
 [
- {"cid": "mila-2026-11-17-01", "figur": "mila", "video": "hf_20261116_161107_d56e0612-b748-4884-b5db-9128db39c0be", "off": "hf_20261107_121056_8f732c84-c592-4ff7-a41a-f1386610cca5", "hook": "Dellen von der Zwinge?", "key": "Dellen", "text2": "Reststück zwischen Zwinge und Holz"},
- {"cid": "mila-2026-11-19-01", "figur": "mila", "video": "hf_20261116_161107_b2c1b435-9401-4d74-aa45-030127fc69de", "off": "hf_20261107_121055_d9cf1027-6730-49df-9757-4cd7daa7a9ac", "hook": "Ausgefranste Kanten?", "key": "Kanten?", "text2": "Malerkrepp auf die Linie · dann sägen"},
- {"cid": "mila-2026-11-23-01", "figur": "mila", "video": "hf_20261116_161107_7850719d-b326-4367-a4fb-b6bdbfcdd090", "off": "hf_20261116_160703_cf6e137d-add4-4392-8869-438a54feec64", "hook": "Kanten brechen.", "key": "brechen.", "text2": "Einmal mit Schleifpapier drüber"},
- {"cid": "nele-2026-11-17-01", "figur": "nele", "video": "hf_20261116_161108_a9b5ba33-c8f1-4ab3-9fda-4ac010496ac5", "off": "hf_20261107_121056_8c8d26b2-c360-4cd6-9ae9-02c7ca1ca4ce", "hook": "Ausfallschritt. Mach mit.", "key": "Mach mit.", "text2": "Knie über dem Fuss · Oberkörper aufrecht"},
- {"cid": "nele-2026-11-21-01", "figur": "nele", "video": "hf_20261116_161107_4fa8cfa5-c63f-408c-a326-48b5f2331704", "off": "hf_20261107_121055_bbad7387-3c8a-4d8f-b9b0-e065177234bf", "hook": "Kniebeuge: Wohin zeigen die Knie?", "key": "Knie?", "text2": "Knie Richtung Zehen · nicht nach innen"},
- {"cid": "nele-2026-11-23-01", "figur": "nele", "video": "hf_20261116_161107_2b3637ac-6dd5-489f-baa2-a71e755867bc", "off": "hf_20261107_121055_34306a95-160e-4941-8fc9-ada001eaeec4", "hook": "Armkreisen: 30 Sek.", "key": "30 Sek.", "text2": "Arme auf Schulterhöhe · kleine Kreise"},
- {"cid": "hilde-2026-11-23-01", "figur": "hilde", "video": "hf_20261116_161110_eff33a73-ae4c-4fc3-83d1-8d7c1194a780", "off": "hf_20261116_160704_5346d824-bdb5-47f5-9a50-7fa5fcc2b9d2", "hook": "Altes Brot? Nicht wegwerfen.", "key": "Nicht wegwerfen.", "text2": "Würfeln · in der Pfanne rösten · fertig"}
+ {
+  "cid": "mila-2026-11-17-01",
+  "figur": "mila",
+  "video": "hf_20261116_161107_d56e0612-b748-4884-b5db-9128db39c0be",
+  "off": "hf_20261107_121056_8f732c84-c592-4ff7-a41a-f1386610cca5",
+  "hook": "Dellen von der Zwinge?",
+  "key": "Dellen",
+  "text2": "Reststück zwischen Zwinge und Holz"
+ },
+ {
+  "cid": "mila-2026-11-19-01",
+  "figur": "mila",
+  "video": "hf_20261116_161107_b2c1b435-9401-4d74-aa45-030127fc69de",
+  "off": "hf_20261107_121055_d9cf1027-6730-49df-9757-4cd7daa7a9ac",
+  "hook": "Ausgefranste Kanten?",
+  "key": "Kanten?",
+  "text2": "Malerkrepp auf die Linie · dann sägen"
+ },
+ {
+  "cid": "mila-2026-11-23-01",
+  "figur": "mila",
+  "video": "hf_20261116_161107_7850719d-b326-4367-a4fb-b6bdbfcdd090",
+  "off": "hf_20261116_160703_cf6e137d-add4-4392-8869-438a54feec64",
+  "hook": "Kanten brechen.",
+  "key": "brechen.",
+  "text2": "Einmal mit Schleifpapier drüber"
+ },
+ {
+  "cid": "nele-2026-11-17-01",
+  "figur": "nele",
+  "video": "hf_20261116_161108_a9b5ba33-c8f1-4ab3-9fda-4ac010496ac5",
+  "off": "hf_20261107_121056_8c8d26b2-c360-4cd6-9ae9-02c7ca1ca4ce",
+  "hook": "Ausfallschritt. Mach mit.",
+  "key": "Mach mit.",
+  "text2": "Knie über dem Fuss · Oberkörper aufrecht"
+ },
+ {
+  "cid": "nele-2026-11-21-01",
+  "figur": "nele",
+  "video": "hf_20261116_161107_4fa8cfa5-c63f-408c-a326-48b5f2331704",
+  "off": "hf_20261107_121055_bbad7387-3c8a-4d8f-b9b0-e065177234bf",
+  "hook": "Kniebeuge: Wohin zeigen die Knie?",
+  "key": "Knie?",
+  "text2": "Knie Richtung Zehen · nicht nach innen"
+ },
+ {
+  "cid": "nele-2026-11-23-01",
+  "figur": "nele",
+  "video": "hf_20261116_161107_2b3637ac-6dd5-489f-baa2-a71e755867bc",
+  "off": "hf_20261107_121055_34306a95-160e-4941-8fc9-ada001eaeec4",
+  "hook": "Armkreisen: 30 Sek.",
+  "key": "30 Sek.",
+  "text2": "Arme seitlich · kleine Kreise"
+ },
+ {
+  "cid": "hilde-2026-11-23-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161110_eff33a73-ae4c-4fc3-83d1-8d7c1194a780",
+  "off": "hf_20261116_160704_5346d824-bdb5-47f5-9a50-7fa5fcc2b9d2",
+  "hook": "Altes Brot? Nicht wegwerfen.",
+  "key": "Nicht wegwerfen.",
+  "text2": "Würfeln · in der Pfanne rösten · fertig"
+ },
+ {
+  "cid": "mila-2026-11-21-01",
+  "figur": "mila",
+  "video": "hf_20261116_161109_a24ae490-d770-48e8-b822-3c19ce3d92dc",
+  "off": "hf_20261107_121055_34e1e0b0-635c-4b16-bbae-13c406dbc1b1",
+  "hook": "Schraubloch ausgeleiert?",
+  "key": "ausgeleiert?",
+  "text2": "Zahnstocher + Leim · trocknen · neu schrauben"
+ },
+ {
+  "cid": "nele-2026-11-19-01",
+  "figur": "nele",
+  "video": "hf_20261116_161430_ed39b1db-4a0c-4535-ad86-cf1b7c29876b",
+  "off": "hf_20261116_161305_aaa286c4-903f-4045-8b2e-a52aff7f9741",
+  "hook": "Wadenheben: 20×",
+  "key": "20×",
+  "text2": "Hoch auf die Zehen · kurz halten · langsam runter"
+ },
+ {
+  "cid": "hilde-2026-11-17-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161107_58c0ba90-3f31-436f-9746-7049b10f0458",
+  "off": "hf_20261107_121056_cb43395f-1481-4d81-a687-43fcaf29315a",
+  "hook": "Schau ganz unten.",
+  "key": "unten.",
+  "text2": "Augenhöhe = teuer · unten oft günstiger"
+ },
+ {
+  "cid": "hilde-2026-11-19-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161107_085b20fa-db4f-4ccd-942d-b0078abcc09d",
+  "off": "hf_20261107_121056_b964440a-f754-42f4-a666-9939b15a4446",
+  "hook": "Kündigungsfrist notiert?",
+  "key": "notiert?",
+  "text2": "Gleich beim Abschluss eintragen"
+ },
+ {
+  "cid": "hilde-2026-11-21-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161108_5332e18c-cfa9-4771-b2a4-9df21e9f99f8",
+  "off": "hf_20261107_121056_86a0cc10-7d4f-43a3-b533-2c548dfc3731",
+  "hook": "Gelb heisst: nachfragen.",
+  "key": "nachfragen.",
+  "text2": "Unbekannte Abbuchungen anstreichen"
+ }
 ]
