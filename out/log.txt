@@ -1,40 +1,25 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-out/nele-2026-11-23-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/nele-2026-11-19-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
-out/nele-2026-11-22-01.mp4 (11 Textebenen, 10.0 s)
-out/hilde-2026-11-20-01.mp4 (12 Textebenen, 10.0 s)
-out/hilde-2026-11-22-01.mp4 (13 Textebenen, 10.0 s)
+out/nele-2026-11-18-01.mp4 (10 Textebenen, 10.0 s)
+out/hilde-2026-11-18-01.mp4 (11 Textebenen, 10.0 s)
 {
- "nele-2026-11-23-01": {
-  "gehört": "Arme seitlich hoch, kleine Kreise. 30 Sekunden, mach mit!"
- },
- "nele-2026-11-19-01": {
-  "gehört": "Auf die Zehenspitzen, oben kurz halten, langsam runter. 20 Mal, mach mit!"
- },
- "nele-2026-11-22-01": {
+ "nele-2026-11-18-01": {
   "quote": 100,
-  "gehört": "Du sagst, du hast keinen Platz? Meine Matte ist so breit wie ich. Zwischen Sofa und Tisch geht das. Wo trainierst du zu Hause?",
+  "gehört": "Ehrlich? Ich mag Liegestütze nicht. Ich mach sie trotzdem. Aber am Tisch, nicht am Boden. Welche Übung magst du gar nicht?",
   "abweichungen": []
  },
- "hilde-2026-11-20-01": {
+ "hilde-2026-11-18-01": {
   "quote": 100,
-  "gehört": "Kind, dein Fernseher schläft nicht. Er wartet. Und das kostet Strom. Ich schalt abends die Steckerleiste aus. Was läuft bei dir die ganze Nacht?",
+  "gehört": "Kind, bei mir ist Freitag Resteessen. Was im Kühlschrank liegt, kommt auf den Tisch. Weggeworfen wird nichts. Was kochst du aus Resten?",
   "abweichungen": []
- },
- "hilde-2026-11-22-01": {
-  "quote": 98,
-  "gehört": "Probier mal eine Woche nur mit Bargeld. Wenn das Portemonnaie leer ist, ist Schluss. Da merkst du jeden Einkauf. Zahlst du lieber bar oder mit Karte?",
-  "abweichungen": [
-   [
-    "Kind,",
-    ""
-   ]
-  ]
  }
 }
 hilde-2026-11-17-01.mp4
 hilde-2026-11-17-01_off.mp3
 hilde-2026-11-17-01_t.jpg
+hilde-2026-11-18-01.mp4
+hilde-2026-11-18-01_roh.mp4
+hilde-2026-11-18-01_roh.words.json
+hilde-2026-11-18-01_t.jpg
 hilde-2026-11-19-01.mp4
 hilde-2026-11-19-01_off.mp3
 hilde-2026-11-19-01_t.jpg
@@ -80,6 +65,10 @@ mila-2026-11-23-01_t.jpg
 nele-2026-11-17-01.mp4
 nele-2026-11-17-01_off.mp3
 nele-2026-11-17-01_t.jpg
+nele-2026-11-18-01.mp4
+nele-2026-11-18-01_roh.mp4
+nele-2026-11-18-01_roh.words.json
+nele-2026-11-18-01_t.jpg
 nele-2026-11-19-01.mp4
 nele-2026-11-19-01_off.mp3
 nele-2026-11-19-01_t.jpg
