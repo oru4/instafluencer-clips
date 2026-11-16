@@ -1,17 +1,3 @@
 set -e
-gh release upload clips out/mila-2026-10-24-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-10-26-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-10-28-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-10-24-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-10-26-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-10-28-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-10-24-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-10-26-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-10-28-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-10-25-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-10-27-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-10-25-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-10-27-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-10-25-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-10-27-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release view clips --repo "$GITHUB_REPOSITORY" --json assets --jq ".assets[].name" | grep -c 2026-10-2[4-8]
+python3 bilder.py bilder.json
+ls out
