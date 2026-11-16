@@ -1,1 +1,6 @@
-[]
+[
+ {"cid": "mila-2026-11-18-01", "figur": "mila", "video": "hf_20261116_161854_1b59e4b6-8a80-4c97-9535-bc0e6e1e852a", "hook": "Zu viel Leim?", "key": "Leim?", "skript": "Du nimmst zu viel Leim? Ich auch, am Anfang. Eine dünne Schicht reicht. Ein paar kleine Perlen an der Fuge sind genau richtig. Wie viel nimmst du?"},
+ {"cid": "mila-2026-11-20-01", "figur": "mila", "video": "hf_20261116_161433_497ecae3-9d73-4e15-a5aa-1da7f338d75c", "hook": "Erstes Holz: Kiefer.", "key": "Kiefer.", "skript": "Du weisst nicht, welches Holz du nehmen sollst? Nimm Kiefer. Günstig, leicht zu sägen, und Fehler sind nicht so teuer. Womit hast du angefangen?"},
+ {"cid": "mila-2026-11-22-01", "figur": "mila", "video": "hf_20261116_161643_99d34cc4-8298-46ad-9208-904985fd2a45", "hook": "Holz vor dem Ölen wässern.", "key": "wässern.", "skript": "Dein Holz wird nach dem Ölen rau? Wisch es vorher feucht ab. Trocknen lassen, nochmal fein schleifen. Dann bleibt es glatt. Hast du das schon probiert?"},
+ {"cid": "nele-2026-11-20-01", "figur": "nele", "video": "hf_20261116_161437_36ae4408-8136-41a3-83f9-530eb7e624f2", "hook": "Telefonat? Ich steh auf.", "key": "steh auf.", "skript": "Du sitzt den ganzen Tag im Homeoffice? Ich auch. Darum steh ich bei jedem Telefonat auf. Klingt nach nichts, sind aber viele Minuten. Wie viel sitzt du am Tag?"}
+]
