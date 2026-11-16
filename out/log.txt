@@ -1,16 +1,12 @@
 Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
-out/nele-2026-11-18-01.mp4 (10 Textebenen, 10.0 s)
-out/hilde-2026-11-18-01.mp4 (11 Textebenen, 10.0 s)
+out/nele-2026-11-23-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
+out/nele-2026-11-19-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
 {
- "nele-2026-11-18-01": {
-  "quote": 100,
-  "gehört": "Ehrlich? Ich mag Liegestütze nicht. Ich mach sie trotzdem. Aber am Tisch, nicht am Boden. Welche Übung magst du gar nicht?",
-  "abweichungen": []
+ "nele-2026-11-23-01": {
+  "gehört": "Arme seitlich hoch, kleine Kreise. 30 Sekunden, mach mit!"
  },
- "hilde-2026-11-18-01": {
-  "quote": 100,
-  "gehört": "Kind, bei mir ist Freitag Resteessen. Was im Kühlschrank liegt, kommt auf den Tisch. Weggeworfen wird nichts. Was kochst du aus Resten?",
-  "abweichungen": []
+ "nele-2026-11-19-01": {
+  "gehört": "Rücken an die Wand, runterrutschen und halten. Heute 45 Sekunden."
  }
 }
 hilde-2026-11-17-01.mp4
