@@ -1,0 +1,57 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+out/mila-2026-11-17-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+out/mila-2026-11-19-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+out/mila-2026-11-23-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+out/nele-2026-11-17-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
+out/nele-2026-11-21-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
+out/nele-2026-11-23-01.mp4 (2 Textebenen, 6.0 s, mit Musik)
+out/hilde-2026-11-23-01.mp4 (2 Textebenen, 5.0 s, mit Musik)
+{
+ "mila-2026-11-17-01": {
+  "gehört": "Immer ein Reststück zwischen Zwinge und Holz. Keine Dälen mehr."
+ },
+ "mila-2026-11-19-01": {
+  "gehört": "Malerkrapp auf die Linie, dann sägen. Die Kante bleibt sauber."
+ },
+ "mila-2026-11-23-01": {
+  "gehört": "Scharfe Kanten einmal kurz mit Schleifpapier drüber. Splittert nicht mehr."
+ },
+ "nele-2026-11-17-01": {
+  "gehört": "Großer Schritt nach vorn, hinteres Knie Richtung Boden, zurück."
+ },
+ "nele-2026-11-21-01": {
+  "gehört": "Knie zeigen Richtung 10. Nicht nach innen kippen lassen."
+ },
+ "nele-2026-11-23-01": {
+  "gehört": "Arme seitlich hoch, kleine Kreise. 30 Sekunden, mach mit!"
+ },
+ "hilde-2026-11-23-01": {
+  "gehört": "Kind, altes Brot wirft man nicht weg. Würfeln, rösten, fertig."
+ }
+}
+total 19312
+drwxr-xr-x 2 runner runner    4096 Nov 16 16:15 .
+drwxr-xr-x 6 runner runner    4096 Nov 16 16:14 ..
+-rw-r--r-- 1 runner runner 2798768 Nov 16 16:15 hilde-2026-11-23-01.mp4
+-rw-r--r-- 1 runner runner   88232 Nov 16 16:15 hilde-2026-11-23-01_off.mp3
+-rw-r--r-- 1 runner runner   71701 Nov 16 16:15 hilde-2026-11-23-01_t.jpg
+-rw-r--r-- 1 runner runner    1323 Nov 16 16:15 log.txt
+-rw-r--r-- 1 runner runner 4190636 Nov 16 16:14 mila-2026-11-17-01.mp4
+-rw-r--r-- 1 runner runner   67752 Nov 16 16:14 mila-2026-11-17-01_off.mp3
+-rw-r--r-- 1 runner runner   70658 Nov 16 16:14 mila-2026-11-17-01_t.jpg
+-rw-r--r-- 1 runner runner 2623633 Nov 16 16:14 mila-2026-11-19-01.mp4
+-rw-r--r-- 1 runner runner   69006 Nov 16 16:14 mila-2026-11-19-01_off.mp3
+-rw-r--r-- 1 runner runner   55460 Nov 16 16:15 mila-2026-11-19-01_t.jpg
+-rw-r--r-- 1 runner runner 3367672 Nov 16 16:15 mila-2026-11-23-01.mp4
+-rw-r--r-- 1 runner runner   75275 Nov 16 16:15 mila-2026-11-23-01_off.mp3
+-rw-r--r-- 1 runner runner   60355 Nov 16 16:15 mila-2026-11-23-01_t.jpg
+-rw-r--r-- 1 runner runner 2044852 Nov 16 16:15 nele-2026-11-17-01.mp4
+-rw-r--r-- 1 runner runner   69006 Nov 16 16:15 nele-2026-11-17-01_off.mp3
+-rw-r--r-- 1 runner runner   61115 Nov 16 16:15 nele-2026-11-17-01_t.jpg
+-rw-r--r-- 1 runner runner 1909361 Nov 16 16:15 nele-2026-11-21-01.mp4
+-rw-r--r-- 1 runner runner   57303 Nov 16 16:15 nele-2026-11-21-01_off.mp3
+-rw-r--r-- 1 runner runner   60735 Nov 16 16:15 nele-2026-11-21-01_t.jpg
+-rw-r--r-- 1 runner runner 1836619 Nov 16 16:15 nele-2026-11-23-01.mp4
+-rw-r--r-- 1 runner runner   79037 Nov 16 16:15 nele-2026-11-23-01_off.mp3
+-rw-r--r-- 1 runner runner   60600 Nov 16 16:15 nele-2026-11-23-01_t.jpg
+-rw-r--r-- 1 runner runner     763 Nov 16 16:15 whisper_b4.json
