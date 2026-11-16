@@ -54,5 +54,21 @@
   "hook": "Eine Woche nur Bargeld.",
   "key": "Bargeld.",
   "skript": "Kind, probier mal eine Woche nur mit Bargeld. Wenn das Portemonnaie leer ist, ist Schluss. Da merkst du jeden Einkauf. Zahlst du lieber bar oder mit Karte?"
+ },
+ {
+  "cid": "nele-2026-11-18-01",
+  "figur": "nele",
+  "video": "hf_20261116_161435_9b8f9024-ee0e-4b6d-8406-e6f9a37b4494",
+  "hook": "Ich hasse Liegestütze.",
+  "key": "hasse",
+  "skript": "Ehrlich? Ich mag Liegestütze nicht. Ich mach sie trotzdem. Aber am Tisch, nicht am Boden. Welche Übung magst du gar nicht?"
+ },
+ {
+  "cid": "hilde-2026-11-18-01",
+  "figur": "hilde",
+  "video": "hf_20261116_161646_e5584fad-baf0-4bfa-b5d6-7e4a248fa2eb",
+  "hook": "Freitag ist Resteessen.",
+  "key": "Resteessen.",
+  "skript": "Kind, bei mir ist Freitag Resteessen. Was im Kühlschrank liegt, kommt auf den Tisch. Weggeworfen wird nichts. Was kochst du aus Resten?"
  }
 ]
