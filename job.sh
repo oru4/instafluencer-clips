@@ -1,23 +1,3 @@
 set -e
-gh release upload clips out/hilde-2026-11-17-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-11-18-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-11-19-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-11-20-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-11-21-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-11-22-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/hilde-2026-11-23-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-17-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-18-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-19-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-20-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-21-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-22-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/mila-2026-11-23-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-17-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-18-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-19-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-20-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-21-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-22-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release upload clips out/nele-2026-11-23-01.mp4 --clobber --repo "$GITHUB_REPOSITORY"
-gh release view clips --repo "$GITHUB_REPOSITORY" --json assets --jq ".assets[].name" | grep -c 2026-11-
+pip install -q resemblyzer
+python3 stimme_finden.py
