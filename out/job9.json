@@ -1,0 +1,13 @@
+{
+ "kandidaten": {
+  "Onyx": 0.745,
+  "Naomi": 0.768,
+  "Original": 0.664
+ },
+ "gewählt": "Naomi",
+ "whisper": {
+  "quote": 100,
+  "gehört": "Dein Hocker wackelt? Meiner auch, drei Wochen lang. Prüf ihn auf einer ebenen Fläche. Wackelt er noch, schleif das längste Bein ab. Was wackelt bei dir?"
+ },
+ "dauer_s": 11.0
+}

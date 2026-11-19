@@ -1,110 +1,27 @@
   DEPRECATION: Building 'webrtcvad' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'webrtcvad'. Discussion can be found at https://github.com/pypa/pip/issues/6334
   DEPRECATION: Building 'typing' using the legacy setup.py bdist_wheel mechanism, which will be removed in a future version. pip 25.3 will enforce this behaviour change. A possible replacement is to use the standardized build interface by setting the `--use-pep517` option, (possibly combined with `--no-build-isolation`), or adding a `pyproject.toml` file to the source tree of 'typing'. Discussion can be found at https://github.com/pypa/pip/issues/6334
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+out/mila-2026-11-24-01.mp4 (11 Textebenen, 11.0 s)
 Loaded the voice encoder model on cpu in 0.01 seconds.
 {
- "mila-18": [
-  [
-   "Onyx",
-   0.68
-  ],
-  [
-   "Naomi",
-   0.678
-  ],
-  [
-   "Linda",
-   0.674
-  ],
-  [
-   "Gia",
-   0.669
-  ],
-  [
-   "Vesper",
-   0.66
-  ],
-  [
-   "Lucy",
-   0.66
-  ]
- ],
- "mila-20": [
-  [
-   "Onyx",
-   0.699
-  ],
-  [
-   "Nadine",
-   0.68
-  ],
-  [
-   "Remy",
-   0.672
-  ],
-  [
-   "Juno",
-   0.671
-  ],
-  [
-   "Naomi",
-   0.663
-  ],
-  [
-   "Tamsin",
-   0.646
-  ]
- ],
- "mila-22": [
-  [
-   "Kaia",
-   0.67
-  ],
-  [
-   "Pixie",
-   0.666
-  ],
-  [
-   "Nadine",
-   0.663
-  ],
-  [
-   "Remy",
-   0.662
-  ],
-  [
-   "Gia",
-   0.66
-  ],
-  [
-   "Naomi",
-   0.659
-  ]
- ],
- "nele-18": [
-  [
-   "Zoe",
-   0.82
-  ],
-  [
-   "Skye",
-   0.807
-  ],
-  [
-   "Naomi",
-   0.796
-  ],
-  [
-   "Gia",
-   0.792
-  ],
-  [
-   "Chloe",
-   0.78
-  ],
-  [
-   "Quinn",
-   0.772
-  ]
- ],
- "mila_untereinander": 0.936
+ "kandidaten": {
+  "Onyx": 0.745,
+  "Naomi": 0.768,
+  "Original": 0.664
+ },
+ "gew\u00e4hlt": "Naomi"
 }
+{
+ "kandidaten": {
+  "Onyx": 0.745,
+  "Naomi": 0.768,
+  "Original": 0.664
+ },
+ "gewählt": "Naomi",
+ "whisper": {
+  "quote": 100,
+  "gehört": "Dein Hocker wackelt? Meiner auch, drei Wochen lang. Prüf ihn auf einer ebenen Fläche. Wackelt er noch, schleif das längste Bein ab. Was wackelt bei dir?"
+ },
+ "dauer_s": 11.0
+}
+NICHT HOCHGELADEN: Stimme passt nicht klar
